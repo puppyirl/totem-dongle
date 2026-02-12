@@ -53,19 +53,19 @@
         typing {
             label = "Base";
             bindings = <
-                      &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U      &kp I      &kp O    &kp P
-                      &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J      &kp K      &kp L    &kp SEMI
-&mt LEFT_CONTROL TAB  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M      &kp COMMA  &kp DOT  &kp SLASH  &kp APOSTROPHE
-                                    &kp LALT  &mo 1  &kp LSHFT    &kp RET  &kp SPACE  &kp LGUI
+                  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U      &kp I      &kp O    &kp P
+                  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J      &kp K      &kp L    &kp SEMI
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M      &kp COMMA  &kp DOT  &kp SLASH  &kp APOSTROPHE
+                                &kp LALT  &mo 1  &kp LSHFT    &kp RET  &kp SPACE  &kp LGUI
             >;
         };
 
         numbers {
             bindings = <
-                            &kp N1     &kp N2     &kp N3           &kp N4  &kp N5    &kp K_VOLUME_UP    &kp K_PLAY_PAUSE  &kp LC(Z)  &kp LC(Y)  &kp BACKSPACE
-                            &kp N6     &kp N7     &kp N8           &kp N9  &kp N0    &kp K_VOLUME_DOWN  &kp LEFT          &kp UP     &kp DOWN   &kp RIGHT
-&mt LEFT_CONTROL BACKSLASH  &kp MINUS  &kp EQUAL  &kp PRINTSCREEN  &to 2   &gresc    &kp LC(A)          &kp LC(X)         &kp LC(C)  &kp LC(V)  &kp DELETE     &kp F12
-                                                  &trans           &trans  &trans    &trans             &trans            &trans
+         &kp N1     &kp N2     &kp N3           &kp N4    &kp N5        &kp K_VOLUME_UP    &kp K_PLAY_PAUSE  &kp LC(Z)      &kp LC(Y)  &kp BACKSPACE
+         &kp N6     &kp N7     &kp N8           &kp N9    &kp N0        &kp K_VOLUME_DOWN  &kp LEFT          &kp UP         &kp DOWN   &kp RIGHT
+&kp TAB  &kp MINUS  &kp EQUAL  &kp PRINTSCREEN  &kp BSLH  &tog 2        &gresc             &kp LC(X)         &kp LC(C)      &kp LC(V)  &kp DELETE     &kp F12
+                               &kp LEFT_ALT     &trans    &kp LSHIFT    &kp ENTER          &kp SPACE         &kp RIGHT_WIN
             >;
         };
 
@@ -80,10 +80,10 @@
 
         gaming-ext {
             bindings = <
-        &kp N1  &kp N2     &kp N3     &kp N4            &kp N5               &kp F1  &kp F2          &kp F3    &kp F4          &kp F5
-        &kp N6  &kp N7     &kp N8     &kp N9            &kp N0               &kp F6  &kp LEFT_ARROW  &kp UP    &kp DOWN_ARROW  &kp RIGHT
-&trans  &gresc  &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp F9  &kp F10         &kp DOWN  &kp F11         &kp F12    &to 0
-                           &trans     &trans            &trans               &trans  &trans          &trans
+         &kp N1  &kp N2     &kp N3        &kp N4            &kp N5               &kp F1     &kp F2          &kp F3         &kp F4          &kp F5
+         &kp N6  &kp N7     &kp N8        &kp N9            &kp N0               &kp F6     &kp LEFT_ARROW  &kp UP         &kp DOWN_ARROW  &kp RIGHT
+&kp TAB  &gresc  &kp MINUS  &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp F9     &kp F10         &kp DOWN       &kp F11         &kp F12    &to 0
+                            &kp LEFT_ALT  &trans            &kp LEFT_SHIFT       &kp ENTER  &kp SPACE       &kp RIGHT_GUI
             >;
         };
 
